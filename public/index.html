@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PagPrincipal</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="justsimpledivinleft"></div>
+            <ul class="scrollINdocument">
+                <div class="dropdown">
+                    <button class="dropbtn">Inicio
+                        <i class="fa fa-caret-down"
+                            style=" font-size: 10pt; padding: 1px; color:rgb(255, 255, 255); background-color: rgb(92, 92, 92);"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Encontrar trabalho
+                        <i class="fa fa-caret-down"
+                            style=" font-size: 10pt; padding: 1px; color:rgb(255, 255, 255); background-color: rgb(92, 92, 92);"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Empregadores
+                        <i class="fa fa-caret-down"
+                            style=" font-size: 10pt; padding: 1px; color:rgb(255, 255, 255); background-color: rgb(92, 92, 92);"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </ul>
+
+            <ul class="EntrarRegistrar">
+                <li><i class="fa fa-car" style="font-size:12px;"></i><a href="../entrar/entrar.html">Entrar</a></li>
+                <li><a href="registrar/registrar.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Bem vindo de volta!</h1>
+        <div class="div_subtitle">
+            <p class="subtitle_p">Não tem uma conta?</p>
+            <p class="subtitle_p_2">Registrar agora!</p>
+        </div>
+
+        <form action="../extern/login.php" method="post">
+            <div class="EmailName_div">
+                <i class="fa fa-car iconLogin" style="font-size:20px;"></i>
+                <label for="name"></label><br>
+                <input class="inputString" type="text" id="name" name="name" placeholder="Nome de usuário ou endereço de email"><br>
+            </div>
+            <div class="Senha_div">
+                <i class="fa fa-car iconLogin" style="font-size:20px;"></i>
+                <label for="password"></label><br>
+                <input class="inputString" type="password" id="password" name="password" placeholder="Senha"><br><br>
+            </div>
+
+            <p class="EsqueceuSenha_p">Esqueceu a senha ?</p>
+            <input type="submit" class="btnSubmit" value="Entrar">
+        </form>
+    </main>
+</body>
+
+<footer>
+    <p class="footer_title">Minha conta</p>
+    <p class="footer_p">Conecta-se</p>
+    <p class="footer_p">Registro</p>
+    <p class="footer_p">Publica um trabalho</p>
+    <div class="footerSectionBehaviour">
+        <p class="footerSectionBehaviour_p">2022 Todos os direitos reservados</p>
+        <div class="footerSectionBehaviour_icons">
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <i class="fa fa-car" style="font-size:16px;"></i>
+        </div>
+    </div>
+</footer>
+
+</html>

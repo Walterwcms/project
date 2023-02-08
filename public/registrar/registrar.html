@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="registrarstyle.css" rel="stylesheet" />
+    <link href="../fontawesome/css/all.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registrar</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <div class="justsimpledivinleft"></div>
+            <ul class="scrollINdocument">
+                <div class="dropdown">
+                    <button class="dropbtn">Inicio
+                        <i class="fa fa-caret-down"
+                            style=" font-size: 10pt; padding: 1px; color:rgb(255, 255, 255); background-color: rgb(92, 92, 92);"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Encontrar trabalho
+                        <i class="fa fa-caret-down"
+                            style=" font-size: 10pt; padding: 1px; color:rgb(255, 255, 255); background-color: rgb(92, 92, 92);"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Empregadores
+                        <i class="fa fa-caret-down"
+                            style=" font-size: 10pt; padding: 1px; color:rgb(255, 255, 255); background-color: rgb(92, 92, 92);"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </ul>
+
+            <ul class="EntrarRegistrar">
+                <li><i class="fa fa-car" style="font-size:12px;"></i><a href="../index.html">Entrar</a></li>
+                <li><a>Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h1>Registro</h1>
+    <main>
+        <h2>Vamos criar sua conta!</h2>
+        <div class="div_subtitle">
+            <p class="subtitle_p">Ja tem uma conta?</p>
+            <p class="subtitle_p_2">Entrar!</p>
+        </div>
+
+        <form action="../../extern/register.php" method="post">
+
+            <div class="radio-toolbar">
+                <input type="radio" id="radioApple" name="radioFruit" value="apple" checked>
+                <label for="radioApple"> <i class="fa fa-car" style="font-size:12px;"></i> Freelancer</label>
+
+                <input type="radio" id="radioBanana" name="radioFruit" value="banana">
+                <label for="radioBanana"><i class="fa fa-car" style="font-size:12px;"></i> Empregador</label>
+            </div>
+
+            <div class="NameUser_div">
+                <i class="fa fa-car iconLogin" style="font-size:20px;"></i>
+                <label for="NameUser"></label><br>
+                <input class="inputString" type="text" id="NameUser" name="NameUser" placeholder="Nome do usuário"><br>
+            </div>
+            <div class="Name_div">
+                <i class="fa fa-car iconLogin" style="font-size:20px;"></i>
+                <label for="username"></label><br>
+                <input class="inputString" type="text" id="username" name="username" placeholder="Nome completo"><br>
+            </div>
+            <div class="EmailName_div">
+                <i class="fa fa-car iconLogin" style="font-size:20px;"></i>
+                <label for="email"></label><br>
+                <input class="inputString" type="text" id="email" name="email"
+                    placeholder="Nome de usuário ou endereço de email"><br>
+            </div>
+            <div class="Senha_div">
+                <i class="fa fa-car iconLogin" style="font-size:20px;"></i>
+                <label for="password"></label><br>
+                <input class="inputString" type="password" id="password" name="password" placeholder="Senha"><br><br>
+            </div>
+
+            <div class="pshiftselectTerm_div">
+                <input class="checkTermService" type="checkbox">
+                <p class="pshiftselectTerm">Ao clicar no botão Registrar, você concorda com nossos termos e condições.
+                </p>
+            </div>
+            <input type="submit" class="btnSubmit" value="Entrar">
+        </form>
+    </main>
+</body>
+
+<footer>
+    <p class="footer_title">Minha conta</p>
+    <p class="footer_p">Conecta-se</p>
+    <p class="footer_p">Registro</p>
+    <p class="footer_p">Publica um trabalho</p>
+    <div class="footerSectionBehaviour">
+        <p class="footerSectionBehaviour_p">2022 Todos os direitos reservados</p>
+        <div class="footerSectionBehaviour_icons">
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <i class="fa fa-car" style="font-size:16px;"></i>
+        </div>
+    </div>
+</footer>
+
+</html>
